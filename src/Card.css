@@ -1,0 +1,49 @@
+.body{
+    background-image: url('/react_1/src/assets/back.jpg');
+    
+}
+.card{
+    text-align: center;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 250px;
+}
+
+.card:hover{
+ 
+
+    background-color: rgb(0, 251, 255);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(222, 222, 222);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.1);
+    font-size: larger;
+    width: 300px;
+    transition: font-size 0.5s ease;
+   
+}
+
+
+.card-img-top{
+
+    width: 200px ;
+    max-width: 500px;
+    text-align: center;
+ 
+}
+
+.card:hover .card-img-top {
+    box-shadow: 0 0 10px 15px rgb(255, 255, 255); /* Adjust the shadow color and spread radius as needed */
+    transition: box-shadow 0.5s ease;
+}
+
+.card-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
